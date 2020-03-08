@@ -1,5 +1,58 @@
 <html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/minireset.css/0.0.2/minireset.min.css">
+    <link rel="stylesheet", href="style.css">
+    <title>Samuel Jefferson's Portfolio</title>
+  </head>
   <body>
-    Hello, world
+    <header>
+      <h1>Samuel Jefferson's Portfolio</h1>
+      <a href="https://github.com/samueljefferson"><h3>GitHub Profile</h3></a>
+    </header>
+
+    <div class="project">
+      <div class="grid">
+        <div class="preview">
+          <img src="images/chip8_screenshot.png" alt="">
+        </div>
+        <div class="details">
+          <a href="https://github.com/samueljefferson/chip8"><h2>CHIP-8 Emulator</h2></a>
+          <ul>
+            <li>8-bit emulator written in C using ncurses for terminal display</li>
+            <li>Used multiple threads for implementing timers and reading keyboard input</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="grid">
+        <div class="preview chess">
+          <img src="images/chess_screenshot.png" alt="">
+        </div>
+        <div class="details">
+          <a href="https://github.com/samueljefferson/Chess"><h2>Chess Game</h2></a>
+          <ul>
+            <li>Chess game written in Java, initially using a terminal display, then ported to Android using
+          Android Studio.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+    <div class="project">
+      <div class="grid">
+        <div class="preview">
+          <img src="images/astar_screenshot.png" alt="">
+        </div>
+        <div class="details">
+          <a href="https://github.com/samueljefferson/A-Star-Pathfinding"><h2>Repeated Forward A* Pathfinding</h2></a>
+          <ul>
+            <li>Used Python and Pygame to implement A* on a gridworld where the agent has no knowledge of
+          the contents of a grid cell until it tries to enter the grid cell.</li>
+          </ul>
+        </div>
+      </div>
+
   </body>
 </html>

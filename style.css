@@ -1,0 +1,50 @@
+* {
+  font-family: "helvetica";
+}
+
+header {
+  text-align: center;
+  padding-top: 50px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+header {
+  padding-bottom: 50px;
+}
+.project {
+  padding-bottom: 50px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.project .grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.project ul {
+  padding-top: 20px;
+  list-style-type: disc;
+}
+
+.project img {
+  max-height: 200px;
+  width: auto;
+}
+
+@media screen and (max-width: 1300px) {
+  .project .grid {
+    grid-template-columns: repeat(1, 100%);
+  }
+}
